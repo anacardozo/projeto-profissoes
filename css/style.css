@@ -1,321 +1,278 @@
 body{
-    background-color: #ffffff;
-    }
-    
-#barra{
-    background-color: #0D3B66;
+    margin: 0;
 }
-    .wrapper{
+
+.wrapper{
     width: 100;
     height: 100%;
     }
-    
-    .carrossel{
-    width: 100;
-    height: 100%;
-    margin-top: 70px;
-    }
-    
-    
-    #medicina{
-    position: absolute;
-    background-color:#001D3D;
-    color:#000;
-    top: 1300px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    text-size-adjust:auto;
-    text-align: center;
-    }
-    
-    #medicina2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    top: 300px;
-    width:350px;
-    height: 500px;
-    left: 45%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 15%;
-    margin-top:1230px;
-    margin-left: 350px;
-    }
-    
-    #psicologia{
-    position: absolute;
-    background-color:#002E58;
-    color:#000;
-    top: 2100px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    padding-bottom: 25%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    text-size-adjust:auto;
-    text-align: center;
-    }
-    
-    #psicologia2{
-    position: absolute;
-    background-color:#FFFFFF;
-    color:#000000;
-    top: 2100px;
-    width:350px;
-    height: 500px;
-    left: -10%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 15%;
-    padding: 7%;
-    margin-top:250px;
-    margin-left: 350px;
-    }
 
-    #psi{
-        
-        margin-left: -80px;
-        margin-top:-105px;
-        
-    }
-    
-    #terapia{
+#comeco{
     position: absolute;
-    background-color:#002E58;
-    color:#000000;
-    top: 1950px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    margin-top:940px;
-    text-align: center;
-    
-    }
-    
-    #terapia2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    width:350px;
-    height: 500px;
-    left: 45%;
-    transform: translate(-50%,50%);
-    border-radius: 15px;
-    padding-bottom: 15%;
-    margin-top:2370px;
-    margin-left: 350px;
-    }
-    
-    #estetica{
-    position: absolute;
-    background-color:#265473;
-    color:#000000;
-    top: 2300px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    margin-top:1400px;
-    text-align: center;
-    
-    }
-    
-    #estetica2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    width:350px;
-    left: -10%;
-    height: 500px;
-    transform: translate(-50%,50%);
-    border-radius: 15px;
-    padding-bottom: 15%;
-    margin-top:3170px;
-    margin-left: 350px;
-    }
-    
-    #nutricao{
-    position: absolute;
-    background-color:#216C8B;
-    color:#000000;
-    top: 2705px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    margin-top:1800px;
-    text-align: center;
-    }
-    
-    #nutricao2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    width:350px;
-    height: 500px;
-    left: 45%;
-    transform: translate(-50%,50%);
-    border-radius: 15px;
-    padding-bottom: 15%;
-    margin-top:3975px;
-    margin-left: 350px;
-    }
-    
-    #enfermagem{
-    position: absolute;
-    background-color:#006FAA;
-    color:#000000;
-    top: 3130px;
-    width:1500px;
-    height: 700px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    margin-top:2200px;
-    text-align: center;
-    }
-    
-    #enfermagem2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    width:350px;
-    height: 500px;
-    left: -10%;
-    transform: translate(-50%,50%);
-    border-radius: 15px;
-    padding-bottom: 15%;
-    margin-top:4808px;
-    margin-left: 350px;
-    }
-    
-    #odontologia{
-    position: absolute;
-    background-color:#0486B0;
-    color:#000000;
-    top: 3550px;
-    height: 700px;
-    width:1500px;
-    left: 50%;
-    transform: translate(-50%,50%);
-    border-radius: 20px;
-    padding-bottom: 25%;
-    margin-top:2600px;
-    text-align: center;
-    }
-    
-    #odontologia2{
-    position: absolute;
-    background-color:#FFFFFF ;
-    color:#000000;
-    width:350px;
-    height: 500px;
-    left: 45%;
-    transform: translate(-50%,50%);
-    border-radius: 15px;
-    padding-bottom: 15%;
-    margin-top:5640px;
-    margin-left: 350px;
-    }
+    width: 100vw;
+    height: 480px;
+    left: 0;
+    top: 0px;
+    background-color: rgba(240,255,0, 0.5);
+}
 
-    #laboratorio{
-
-    margin-top:6640px ;
-    margin-left: 30px;
-    height: 700px;
-    width:1500px;
-    }
-    .produto-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    }
-    
-    @media screen and (max-width:768px){
-    .produto-container{
-    width: 100%;
-    flex-direction:column;
-    }
-    }
-
-    #cienciassaude{
+#ciencias{
+    color: #1D5865;
+    top: 580px;
     position: absolute;
-    background-color:#002E58;
-    width:1500px;
-    height: 700px;
+    width: 100vw;
+    height: 480px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    left: 351px;
+    font-size: 70px;
+}
+    
+#topo{
+    position: relative;
+    width: 100vw;
+    height: 480px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    left: -11px;
+    top: 60px;
+    
+}
+
+#cienciassaude{
+    position: absolute;
+    background-color:#063D49;
+    width:1000px;
+    height: 500px;
     border-radius: 20px;
-    left: 20px;
-    top: 980px;
+    left: 120px;
+    top: 680px;
     }
 
     #basetexto{
     position: absolute;
     width: 619px;
     height: 442px;
-    left: 32px;
-    top: 980px;
+    left: 162px;
+    top: 710px;
 
-    background: #023E8A;
+    background: #135F6F;
     border-radius: 40px;
 
     }
-    
-    .ciencias{
-    position: absolute;
-    width: 1350px;
-    height: 695px;
-    left: 35px;
-    top: 840px;
-    margin-left: 200px;
-    
-    background: #00296B;
-    border-radius: 50px;
-    }
 
-    #tema{
-    top: 1010px;
-    left: 50%;
-    margin-left: 600px;
-    width:350px;
-    height: 500px;
-    }
+    .o-que-e{position: absolute; background:#135F6F; width: 100%; padding: 100px 0px; top:1250px ; } 
 
-    .titulo{
-     position: absolute;
-     width: 1167px;
-    height: 136px;
-    left: -250px;
-    top: 812px;
+.container{ position:relative; width: 1200px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; } 
 
-    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 16px;
-    margin-left: 500px;
+.container .card-5{ position: relative; max-width: 300px; height: 250px; background: #101010; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px rgba(0,0,0,0.5); transition: 0.3s ease-in-out; } 
 
-    color: #000000;
+.container .card-5:hover{ height: 450px; } 
 
-    }
+.container .card-5 .img7{ position: relative; width: 260px; height: 260px; top: -60px; left: 5px; z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
 
-    #footer{
-        top: 9597px;
-        margin-left: -20px;
-        width: 100%;
-        height: auto;
-        position: absolute;
-    }
+.container .card-5 .img7 img{ max-width: 100%; border-radius: 4px; } 
+
+.container .card-5 .texto-cursos{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #111; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
+
+.container .card-5:hover .texto-cursos{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; } 
+
+.o-que-e h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+
+.titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+
+.texto-cursos p{ color:#fff; font-size: 10px; } 
+
+.texto-cursos h3{ color:#fff; font-size: 19px; } 
+
+.box1{ display: flex; justify-content: center; align-items: center; min-height: 400px; } 
+
+.card-7{ height: 380px; width: 335px; padding:20px 35px; background:#000; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; } 
+
+.Cursos{ background:#063D49; width: 100%; padding: 100px 0px; } 
+
+.container{ position:relative; width: 1100px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; } 
+
+.container .card-5{ position: relative; max-width: 300px; height: 210px; background: #063D49; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px #135F6F; transition: 0.3s ease-in-out; } 
+
+.container .card-5:hover{ height: 450px; } 
+
+.container .card-5 .imagem-cursos{ position: relative; width: 260px; height: 260px; top: -60px; left: 5px; z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); } 
+
+.container .card-5 .imagem-cursos img{ max-width: 100%; border-radius: 4px; } 
+
+.container .card-5 .texto-cursos{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #063D49; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
+
+.container .card-5:hover .texto-cursos{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; } 
+
+.o-que-e h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+
+.titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; }
+
+.texto-cursos p{ color:#fff; font-size:16px; }
+
+.texto-cursos h3{ color:#fff; font-size: 25px; }
+
+.box1{ display: flex; justify-content: center; align-items: center; width: auto; height:auto; }
+
+.card-7{ height: 380px; width: 335px; padding:20px 35px; background:#063D49; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; }
+
+.graduação1{ background:#063D49; width: 100%; padding: 100px 0px; }
+
+.sobre-faculdades
+    { background:#153E47;
+         width: 100%;
+          padding: 100px 0px;
+        top: 2300px; 
+    position: absolute;} 
+    .container
+    { position:relative;
+         width: 1200px; 
+         display: flex; 
+         justify-content: center;
+          align-items: center; 
+          flex-wrap: wrap;
+           padding: 30px; }
+     .container .card-5
+     { position: relative;
+         max-width: 300px;
+          height: 250px;
+           background: #101010;
+            margin:30px 10px;
+             padding: 20px 15px; 
+             display: flex; 
+             flex-direction: column;
+              box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+               transition: 0.3s ease-in-out; } 
+    .container .card-5:hover
+    { height: 450px; } 
+    .container .card-5 .img7
+    { position: relative;
+         width: 260px;
+          height: 260px;
+           top: -60px;
+            left: 5px;
+             z-index: 1;
+              box-shadow: 0 5px 20px #153E47; } 
+              .container .card-5 .img7 img
+              { max-width: 100%;
+                 border-radius: 4px; } 
+              .container .card-5 .texto-sobre-faculdades{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #153E47; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
+              .container .card-5:hover .texto-sobre-faculdades{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; }
+               .sobre-faculdades h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } .titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+              .texto-sobre-faculdades p{ color:#fff; font-size:10px; } 
+              .texto-sobre-faculdades h3{ color:#fff; font-size: 19px; } 
+              .box1{ display: flex; justify-content: center; align-items: center; min-height: 400px; } 
+              .card-7{ height: 380px; width: 335px; padding:20px 35px; background:#135F6F; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; } 
+              .como-e{ background:#252525; width: 100%; padding: 100px 0px; } 
+              .container{ position:relative; width: 1100px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; }
+               .container .card-5{ position: relative; max-width: 300px; height: 210px; background: #135F6F; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px #135F6F; transition: 0.3s ease-in-out; }
+                .container .card-5:hover{ height: 462px; }
+                 .container .card-5 .imagens-sobre{ position: relative; width: 210px; height: 210px; top: -60px; left: 24px; z-index: 1; box-shadow: 0 5px 20px #135F6F; }
+                  .container .card-5 .imagens-sobre img{ max-width: 100%; border-radius: 4px; }
+                   .container .card-5 .texto-sobre-faculdades{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #135F6F; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; }
+                    .container .card-5:hover .texto-sobre-faculdades{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; }
+                     .sobre-faculdades h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; }
+                      .titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+                      .texto-sobre-faculdades p{ color:#fff; font-size:15px; } 
+                      .texto-sobre-faculdades h3{ color:#fff; font-size: 19px; } 
+                      .box1{ display: flex; justify-content: center; align-items: center; width: auto; height:auto; } 
+                      .card-7{ height: 380px; width: 335px; padding:20px 35px; background:#135F6F; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; }
+                      .graduação1{ background:#135F6F; width: 100%; padding: 100px 0px; }
+
+                      .section1{
+                        margin: 0;
+                        padding: 0;
+                        height: auto;
+                        display: flex;
+                        justify-content: center;
+                        background-color: #ffffff;
+                      }
+                      
+                      .section1-conteudo{
+                        margin: 0;
+                        padding: 0;
+                        height: auto;
+                        margin-bottom: 60px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 2850px;
+                      }
+                      
+                      .slider{
+                        width: 800px;
+                        height: 500px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                      }
+                      
+                      .slide{
+                        width: 500%;
+                        height: 500px;
+                        display: flex;
+                      }
+                      
+                      .slide input{
+                        display: none;
+                      }
+                      
+                      .st{
+                        width: 20%;
+                        transition: 2s;
+                      }
+                      
+                      .st img{
+                        width: 800px;
+                        height: 500px;
+                      }
+                      
+                      #radio1:checked ~.first{
+                        margin-left: 0;
+                      }
+                      
+                      #radio2:checked ~.first{
+                        margin-left: -20%;
+                      }
+                      
+                      
+                      #radio3:checked ~.first{
+                        margin-left: -40%;
+                      }
+                      
+                      #radio1:checked ~ .nav-auto .a-b1{
+                        background-color: #0a4f66;
+                      }
+                      
+                      #radio2:checked ~ .nav-auto .a-b2{
+                        background-color: #0a4f66;
+                      }
+                      
+                      #radio3:checked ~ .nav-auto .a-b3{
+                        background-color: #0a4f66;
+                      }
+                      
+                      
+                      .nav-m{
+                        position: absolute;
+                        width: 800px;
+                        margin-top: -20px;
+                        justify-content: center;
+                        display: flex;
+                      }
+                      
+                      .m-btn{
+                        border: 2px solid #0a4f66;
+                        padding: 5px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        transition: 1s;
+                      }
+                      
+                      .m-btn:not(:last-child){
+                        margin-right: 30px;
+                      }
+                      
+                      .m-btn:hover{
+                        background-color: #0a4f66;
+                      }
