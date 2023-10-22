@@ -127,27 +127,27 @@ body{
     { background:#153E47;
          width: 100%;
           padding: 100px 0px;
-        top: 7836px; 
-    position: relative;} 
-    .container
-    { position:relative;
-         width: 1200px; 
-         display: flex; 
-         justify-content: center;
-          align-items: center; 
-          flex-wrap: wrap;
-           padding: 30px; }
-     .container .card-5
-     { position: relative;
-         max-width: 300px;
-          height: 250px;
-           background: #101010;
-            margin:30px 10px;
-             padding: 20px 15px; 
-             display: flex; 
-             flex-direction: column;
-              box-shadow: 0 5px 202px rgba(0,0,0,0.5);
-               transition: 0.3s ease-in-out; } 
+ top: 7836px; 
+  position: relative;} 
+.container
+{ position:relative;
+  width: 1200px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+  padding: 30px; }
+.container .card-5
+{ position: relative;
+max-width: 300px;
+height: 250px;
+background: #101010;
+margin:30px 10px;
+padding: 20px 15px; 
+display: flex; 
+flex-direction: column;
+box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+transition: 0.3s ease-in-out; } 
     .container .card-5:hover
     { height: 450px; } 
     .container .card-5 .img7
@@ -279,104 +279,13 @@ body{
                       .m-btn:hover{
                         background-color: #0a4f66;
                       }
-                      .section5{
-                        background-color: #257f93;
-                        height: auto;
-                        top:6000px;
-                        left: 0;
-                        margin-top: 35px;
-                        position: relative;
-                      }
                       
-                      .faculdade-medicina {
-                        color: #ffffff;
-                        font-size: 60px;
-                        text-align: center;
-                        margin-top: -30px;
-                        font-weight: 400;
-                        letter-spacing: 3px;
-                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                        padding-top: 16px;
-                      }
-                      
-                      .titulo-faculdade {
-                        position: relative;
-                        top: 32px;
-                        
-                      }
-                      
-                      .container{
-                        width: 1150px;
-                        padding: 55px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                        cursor: pointer;
-                      }
-                      
-                      .container .card{
-                        position: relative;
-                        padding: 10px;
-                        width: 290px;
-                        height: 400px;
-                        background-color: #ffffff;
-                        margin: 15px;
-                        border: 1px solid #063D49;
-                        border-radius: 20px;
-                        overflow: hidden;
-                        transform: 0.5s;
-                        text-align: center;
-                        top: 10px;
-                      }
-                      
-                      .container .card .imagem{
-                        transition: 0.5s;
-                        align-items: center;
-                      
-                      }
-                      
-                      .container .card .content{
-                        padding: 20px;
-                        text-align: center;
-                      }
-                      
-                      .container .card .content p{
-                        color: #000000;
-                        transition: 0.5s;
-                        font-size: large;
-                      }
-                      
-                      .container .card:hover{
-                        background-color: #063D49;
-                        color: #ffffff;
-                        margin-top: -30px;
-                        box-shadow: 2px 20px 25px #063D49;
-                        border-color: #063D49;
-                        transition: 0.3s;
-                      }
-                      
-                      .container .card:hover .content p{
-                        color: #ffffff;
-                      }
-                      
-                      .botao{
-                        background-color: #136475;
-                        border-radius: 15px;
-                        width: 150px;
-                        border-color: #ffffff;
-                        margin-left: 60px;
-                      }
-                      
-                        .grade{
-                          color: #ffffff;
-                        }
                         .linha1{
                           position: absolute;
                           width: 135px;
                           height: 20px;
                           left: 50px;
-                          top: 2600px;
+                          top: 2800px;
                           background: #000000;
                           border-radius: 8px;
                           }
@@ -386,7 +295,7 @@ body{
                           width: 15px;
                           height: 32px;
                           left: 200px;
-                          top: 2540px;
+                          top: 2740px;
                           font-family: 'Hermeneus One';
                           font-style: normal;
                           font-weight: 400;
@@ -401,7 +310,7 @@ body{
                               width: 435px;
                               height: 20px;
                               left:500px;
-                              top:2607px;
+                              top:2807px;
                             background-color: #000000;
                               border-radius: 8px;
                               }
@@ -437,7 +346,7 @@ body{
                                 border-radius:30px;
                                 margin:100px;
                                 left: 198px;
-                                top: 2000px;
+                                top: 2300px;
                                 position:relative;
                                 overflow: hidden;
                                 text-align: center;
@@ -498,7 +407,7 @@ body{
                                 border-radius:30px;
                                 margin:100px;
                                 left: 10px;
-                                top: 2000px;
+                                top: 2300px;
                                 position:relative;
                                 overflow: hidden;
                                 text-align: center;
@@ -510,285 +419,313 @@ body{
                                   height: 400px;
                                 width: 335px;
                                 padding:20px 35px;
-                                background-color:#000;
+                                background-color:#0a4f66;
                                 border-radius:30px;
                                 margin:100px;
                                 left: -180px;
-                                top: 2000px;
+                                top: 2300px;
                                 position:relative;
                                 overflow: hidden;
                                 text-align: center;
                                 }
-                      
-                      
-                                .linha3{
-                                  position: absolute;
-                                  width: 135px;
-                                  height: 20px;
-                                  left: 50px;
-                                  top: 865px;
-                                  background: #000000;
-                                  border-radius: 8px;
-                                  }
+
+                                .section5{
+                                  background-color: #257f93;
+                                  height: auto;
+                                  top:2165px;
+                                  left: 0;
+                                  margin-top: 35px;
+                                  position: relative;
+                                }
                                 
-                                  #psicologia{
-                                  position: absolute;
-                                  width: 15px;
-                                  height: 32px;
-                                  left: 0px;
-                                  top: 3040px;
-                                  font-family: 'Hermeneus One';
-                                  font-style: normal;
+                                .faculdade-medicina {
+                                  color: #ffffff;
+                                  font-size: 60px;
+                                  text-align: center;
+                                  margin-top: -30px;
                                   font-weight: 400;
-                                  font-size: 75px;
-                                  line-height: 145px;
-                                  color: #000000;
+                                  letter-spacing: 3px;
+                                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                  padding-top: 16px;
+                                }
                                 
+                                .titulo-faculdade {
+                                  position: relative;
+                                  top: 32px;
+                                  
+                                }
+                                
+                                .container{
+                                  width: 1150px;
+                                  padding: 55px;
+                                  display: flex;
+                                  align-items: center;
+                                  justify-content: center;
+                                  flex-wrap: wrap;
+                                  cursor: pointer;
+                                }
+                                
+                                .container .card{
+                                  position: relative;
+                                  padding: 10px;
+                                  width: 290px;
+                                  height: 400px;
+                                  background-color: #ffffff;
+                                  margin: 15px;
+                                  border: 1px solid #063D49;
+                                  border-radius: 20px;
+                                  overflow: hidden;
+                                  transform: 0.5s;
+                                  text-align: center;
+                                  top: 10px;
+                                }
+                                
+                                .container .card .imagem{
+                                  transition: 0.5s;
+                                  align-items: center;
+                                
+                                }
+                                
+                                .container .card .content{
+                                  padding: 20px;
+                                  text-align: center;
+                                }
+                                
+                                .container .card .content p{
+                                  color: #000000;
+                                  transition: 0.5s;
+                                  font-size: large;
+                                }
+                                
+                                .container .card:hover{
+                                  background-color: #063D49;
+                                  color: #ffffff;
+                                  margin-top: -30px;
+                                  box-shadow: 2px 20px 25px #063D49;
+                                  border-color: #063D49;
+                                  transition: 0.3s;
+                                }
+                                
+                                .container .card:hover .content p{
+                                  color: #ffffff;
+                                }
+                                
+                                .botao{
+                                  background-color: #136475;
+                                  border-radius: 15px;
+                                  width: 150px;
+                                  border-color: #ffffff;
+                                  margin-left: 60px;
+                                }
+                                
+                                  .grade{
+                                    color: #ffffff;
                                   }
-                              
-                                  .linha4{
+                                  .linha3{
+                                    position: absolute;
+                                    width: 135px;
+                                    height: 20px;
+                                    left: 0px;
+                                    top: 4045px;
+                                    background: #000000;
+                                    border-radius: 8px;
+                                    }
+                                  
+                                    #psicologia{
                                       position: absolute;
-                                      width: 435px;
-                                      height: 20px;
-                                      left:530px;
-                                      top:867px;
-                                    background-color: #000000;
-                                      border-radius: 8px;
-                                      }
-                      
-                                      #quatro{
-                                        height: 400px;
-                                      width: 335px;
-                                      padding:20px 35px;
-                                      background-color:#0a4f66;
-                                      border-radius:30px;
-                                      margin:100px;
-                                      left:-50px;
-                                      top:-600px;
-                                      position:relative;
-                                      overflow: hidden;
-                                      text-align: center;
-                                      }
-                      
-                                      #cinco{
-                                        height: 400px;
-                                      width: 335px;
-                                      padding:20px 35px;
-                                      background-color:#0a4f66;
-                                      border-radius:30px;
-                                      margin:100px;
-                                      left: 320px;
-                                      top: -1098px;
-                                      position:relative;
-                                      overflow: hidden;
-                                      text-align: center;
-                                      }
-                      
-                                      #seis{
-                                        height: 400px;
-                                      width: 335px;
-                                      padding:20px 35px;
-                                      background-color:#0a4f66;
-                                      border-radius:30px;
-                                      margin:100px;
-                                      left: 700px;
-                                      top: -1600px;
-                                      position:relative;
-                                      overflow: hidden;
-                                      text-align: center;
-                                      }
-                      
-                                      .linha5{
+                                                  width: 15px;
+                                                  height: 32px;
+                                                  left: 150px;
+                                                  top: 3975px;
+                                                  font-family: 'Hermeneus One';
+                                                  font-style: normal;
+                                                  font-weight: 400;
+                                                  font-size: 75px;
+                                                  line-height: 145px;
+                                                  color: #000000;
+                                  
+                                    }
+                                
+                                    .linha4{
                                         position: absolute;
                                         width: 435px;
                                         height: 20px;
-                                        left:870px;
-                                        top:1565px;
+                                        left:480px;
+                                        top:4045px;
                                       background-color: #000000;
                                         border-radius: 8px;
                                         }
-                      
-                                        #terapia{
-                                          position: absolute;
-                                          width: 15px;
-                                          height: 32px;
-                                          left: 200px;
-                                          top: 1500px;
-                                          font-family: 'Hermeneus One';
-                                          font-style: normal;
-                                          font-weight: 400;
-                                          font-size: 75px;
-                                          line-height: 145px;
-                                          color: #000000;
+                        
+                                        #quatro{
+                                          height: 400px;
+                                        width: 735px;
+                                        padding:20px 35px;
+                                        background-color:#0a4f66;
+                                        border-radius:30px;
+                                        margin:100px;
+                                        left:-50px;
+                                        top:2150px;
+                                        position:relative;
+                                        overflow: hidden;
+                                        text-align: center;
                                         
+                                        }
+                        
+                                        #cinco{
+                                          height: 400px;
+                                        width: 635px;
+                                        padding:20px 35px;
+                                        background-color:#0a4f66;
+                                        border-radius:30px;
+                                        margin:100px;
+                                        left: -90px;
+                                        top: 2150px;
+                                        position:relative;
+                                        overflow: hidden;
+                                        text-align: center;
+                                        }
+                        
+                                        #seis{
+                                          height: 400px;
+                                        width: 635px;
+                                        padding:20px 35px;
+                                        background-color:#0a4f66;
+                                        border-radius:30px;
+                                        margin:100px;
+                                        left: -50px;
+                                        top: 2150px;
+                                        position:relative;
+                                        overflow: hidden;
+                                        text-align: center;
+                                        }
+                        
+
+                                        .titulo-faculdade-psi {
+                                          position: relative;
+                                          top: 32px;
+                                          
+                                        }
+                                        
+                                          .section6{
+                                            background-color: #063D49;
+                                            height: auto;
+                                            top:2065px;
+                                            left: 0;
+                                            margin-top: 35px;
+                                            position: relative;
+                                          }
+                                        
+                                          .faculdade-psicologia {
+                                            color: #ffffff;
+                                            font-size: 60px;
+                                            text-align: center;
+                                            margin-top: -30px;
+                                            font-weight: 400;
+                                            letter-spacing: 3px;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            padding-top: 16px;
+                                          }
+                                        
+                                          .botao-psi{
+                                            background-color: #063D49;
+                                            border-radius: 15px;
+                                            width: 150px;
+                                            border-color: #ffffff;
+                                            margin-left: 10px;
+                                          }
+                                        
+                                          .container{
+                                            width: 1150px;
+                                            padding: 55px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            flex-wrap: wrap;
+                                            cursor: pointer;
                                           }
                                           
-                                          #ocupacional{
-                                            position: absolute;
-                                          width: 15px;
-                                          height: 32px;
-                                          left: 450px;
-                                          top: 1500px;
-                                          font-family: 'Hermeneus One';
-                                          font-style: normal;
-                                          font-weight: 400;
-                                          font-size: 75px;
-                                          line-height: 145px;
-                                          color: #000000;
-                                           }
+                                          .container .card-psi{
+                                            position: relative;
+                                            padding: 10px;
+                                            width: 290px;
+                                            height: 400px;
+                                            background-color: #ffffff;
+                                            margin: 15px;
+                                            border: 1px solid #063D49;
+                                            border-radius: 20px;
+                                            overflow: hidden;
+                                            transform: 0.5s;
+                                            text-align: center;
+                                            top: 10px;
+                                          }
+                                          
+                                          .container .card-psi .imagem-psi{
+                                            transition: 0.5s;
+                                            align-items: center;
+                                          
+                                          }
+                                          
+                                          .container .card-psi .content{
+                                            padding: 20px;
+                                            text-align: center;
+                                          }
+                                          
+                                          .container .card-psi .content p{
+                                            color: #000000;
+                                            transition: 0.5s;
+                                            font-size: large;
+                                          }
+                                          
+                                          .container .card-psi:hover{
+                                            background-color: #136475;
+                                            color: #ffffff;
+                                            margin-top: -30px;
+                                            box-shadow: 2px 20px 25px #0d5260;
+                                            border-color: #0f5361;
+                                            transition: 0.3s;
+                                          }
+                                          
+                                          .container .card-psi:hover .content p{
+                                            color: #ffffff;
+                                          }
+                                        
+                                          
+                                          .grade-psi{
+                                            color: #ffffff;
+                                          }
                       
-                      
-                                          .linha6{
+
+                                          .linha5{
                                             position: absolute;
-                                            width:135px;
+                                            width: 235px;
                                             height: 20px;
-                                            left:33px;
-                                            top:1565px;
+                                            left:760px;
+                                            top:6265px;
                                           background-color: #000000;
                                             border-radius: 8px;
                                             }
+                          
+                                            #terapia{
+                                              position: absolute;
+                                              width: 15px;
+                                              height: 32px;
+                                              left: 140px;
+                                              top: 6195px;
+                                              font-family: 'Hermeneus One';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 75px;
+                                              line-height: 145px;
+                                              color: #000000;
                                             
-                      
-                                            #sete{
-                                              height: 400px;
-                                            width: 335px;
-                                            padding:20px 35px;
-                                            background-color:#0a4f66;
-                                            border-radius:30px;
-                                            margin:100px;
-                                            left: -62px;
-                                            top: 800px;
-                                            position:relative;
-                                            overflow: hidden;
-                                            text-align: center;
-                                            }
-                      
-                      
-                                            #oito{
-                                              height: 400px;
-                                            width: 335px;
-                                            padding:20px 35px;
-                                            background-color:#0a4f66;
-                                            border-radius:30px;
-                                            margin:100px;
-                                            left: 320px;
-                                            top: 300px;
-                                            position:relative;
-                                            overflow: hidden;
-                                            text-align: center;
-                                            }
-                      
-                      
-                                            #nove{
-                                              height: 400px;
-                                            width: 335px;
-                                            padding:20px 35px;
-                                            background-color:#0a4f66;
-                                            border-radius:30px;
-                                            margin:100px;
-                                            left: 700px;
-                                            top:-202px;
-                                            position:relative;
-                                            overflow: hidden;
-                                            text-align: center;
-                                            }
-                      
-                      
-                                            .linha7{
-                                              position: absolute;
-                                              width: 435px;
-                                              height: 20px;
-                                              left:600px;
-                                              top:2320px;
-                                            background-color: #000000;
-                                              border-radius: 8px;
                                               }
-                      
-                      
-                                            #odontologia{
-                                              position: absolute;
-                                            width: 15px;
-                                            height: 32px;
-                                            left: 200px;
-                                            top: 2250px;
-                                            font-family: 'Hermeneus One';
-                                            font-style: normal;
-                                            font-weight: 400;
-                                            font-size: 75px;
-                                            line-height: 145px;
-                                            color: #000000;
-                                             }
-                      
-                                             .linha8{
-                                              position: absolute;
-                                              width:135px;
-                                              height: 20px;
-                                              left:33px;
-                                              top:2320px;
-                                            background-color: #000000;
-                                              border-radius: 8px;
-                                              }
-                      
-                      
-                                              #dez{
-                                                height: 400px;
-                                              width: 335px;
-                                              padding:20px 35px;
-                                              background-color:#0a4f66;
-                                              border-radius:30px;
-                                              margin:100px;
-                                              left:-62px;
-                                              top:65px;
-                                              position:relative;
-                                              overflow: hidden;
-                                              text-align: center;
-                                              }
-                      
-                                              #onze{
-                                                height: 400px;
-                                              width: 335px;
-                                              padding:20px 35px;
-                                              background-color:#0a4f66;
-                                              border-radius:30px;
-                                              margin:80px;
-                                              left:343px;
-                                              top:-435px;
-                                              position:relative;
-                                              overflow: hidden;
-                                              text-align: center;
-                                              }
-                      
-                                              #doze{
-                                                height: 400px;
-                                              width: 335px;
-                                              padding:20px 35px;
-                                              background-color:#0a4f66;
-                                              border-radius:30px;
-                                              margin:100px;
-                                              left: 708px;
-                                              top:-935px;
-                                              position:relative;
-                                              overflow: hidden;
-                                              text-align: center;
-                                              }
-                      
-                                              .linha9{
-                                                position: absolute;
-                                                width: 435px;
-                                                height: 20px;
-                                                left:900px;
-                                                top:3110px;
-                                              background-color: #000000;
-                                                border-radius: 8px;
-                                                }
-                      
-                      
-                                              #estetica{
+                                              
+                                              #ocupacional{
                                                 position: absolute;
                                               width: 15px;
                                               height: 32px;
-                                              left: 200px;
-                                              top: 3040px;
+                                              left: 375px;
+                                              top: 6195px;
                                               font-family: 'Hermeneus One';
                                               font-style: normal;
                                               font-weight: 400;
@@ -796,168 +733,760 @@ body{
                                               line-height: 145px;
                                               color: #000000;
                                                }
-                      
-                                               #e{
-                                                position: absolute;
-                                              width: 15px;
-                                              height: 32px;
-                                              left: 480px;
-                                              top: 3040px;
-                                              font-family: 'Hermeneus One';
-                                              font-style: normal;
-                                              font-weight: 400;
-                                              font-size: 75px;
-                                              line-height: 145px;
-                                              color: #000000;
-                                               }
-                      
-                      
-                                               #cosmetica{
-                                                position: absolute;
-                                              width: 15px;
-                                              height: 32px;
-                                              left: 560px;
-                                              top: 3040px;
-                                              font-family: 'Hermeneus One';
-                                              font-style: normal;
-                                              font-weight: 400;
-                                              font-size: 75px;
-                                              line-height: 145px;
-                                              color: #000000;
-                                               }
-                      
-                                               .linha10{
+                          
+                          
+                                              .linha6{
                                                 position: absolute;
                                                 width:135px;
                                                 height: 20px;
-                                                left:33px;
-                                                top:3110px;
+                                                left:px;
+                                                top:6265px;
                                               background-color: #000000;
                                                 border-radius: 8px;
                                                 }
-                      
-                      
-                                                #treze{
+                                                
+                          
+                                                #sete{
                                                   height: 400px;
                                                 width: 335px;
                                                 padding:20px 35px;
                                                 background-color:#0a4f66;
                                                 border-radius:30px;
                                                 margin:100px;
-                                                left:-62px;
-                                                top:-650px;
+                                                left: -62px;
+                                                top: 2150px;
                                                 position:relative;
                                                 overflow: hidden;
                                                 text-align: center;
                                                 }
-                      
-                      
-                                                #quatorze{
+                          
+                          
+                                                #oito{
                                                   height: 400px;
                                                 width: 335px;
                                                 padding:20px 35px;
                                                 background-color:#0a4f66;
                                                 border-radius:30px;
                                                 margin:100px;
-                                                left: 335px;
-                                                top:-1150px;
+                                                left: -50px;
+                                                top: 2150px;
                                                 position:relative;
                                                 overflow: hidden;
                                                 text-align: center;
                                                 }
-                      
-                      
-                      
-                                                #quinze{
+                          
+                          
+                                                #nove{
                                                   height: 400px;
                                                 width: 335px;
                                                 padding:20px 35px;
                                                 background-color:#0a4f66;
                                                 border-radius:30px;
                                                 margin:100px;
-                                                left: 730px;
-                                                top:-1650px;
+                                                left: 30px;
+                                                top:2150px;
                                                 position:relative;
                                                 overflow: hidden;
                                                 text-align: center;
                                                 }
-                      
-                                                .linha11{
-                                                  position: absolute;
-                                                  width: 435px;
-                                                  height: 20px;
-                                                  left:610px;
-                                                  top:3870px;
-                                                background-color: #000000;
-                                                  border-radius: 8px;
+                                        
+
+                                                .titulo-faculdade-TO {
+                                                  position: relative;
+                                                  top: 32px;
+                                                  
+                                                }
+                                                
+                                                  .section7{
+                                                    background-color: #257f93;
+                                                    height: auto;
+                                                    top:2065px;
+                                                    left: 0;
+                                                    margin-top: 35px;
+                                                    position: relative;
                                                   }
-                      
-                      
-                                                #enfermagem{
-                                                  position: absolute;
-                                                width: 15px;
-                                                height: 32px;
-                                                left: 200px;
-                                                top: 3800px;
-                                                font-family: 'Hermeneus One';
-                                                font-style: normal;
-                                                font-weight: 400;
-                                                font-size: 75px;
-                                                line-height: 145px;
-                                                color: #000000;
-                                                 }
-                      
-                      
-                                                 .linha12{
-                                                  position: absolute;
-                                                  width:135px;
-                                                  height: 20px;
-                                                  left:33px;
-                                                  top:3870px;
-                                                background-color: #000000;
-                                                  border-radius: 8px;
+                                                
+                                                  .faculdade-TO {
+                                                    color: #ffffff;
+                                                    font-size: 60px;
+                                                    text-align: center;
+                                                    margin-top: -30px;
+                                                    font-weight: 400;
+                                                    letter-spacing: 3px;
+                                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                    padding-top: 16px;
                                                   }
-                      
-                      
-                                                  #dezesseis{
+                                                
+                                                  .botao-TO{
+                                                    background-color: #257f93;
+                                                    border-radius: 15px;
+                                                    width: 150px;
+                                                    border-color: #ffffff;
+                                                    margin-left: 10px;
+                                                  }
+                                                
+                                                  .container{
+                                                    width: 1150px;
+                                                    padding: 55px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    flex-wrap: wrap;
+                                                    cursor: pointer;
+                                                  }
+                                                  
+                                                  .container .card-TO{
+                                                    position: relative;
+                                                    padding: 10px;
+                                                    width: 290px;
                                                     height: 400px;
-                                                  width: 335px;
-                                                  padding:20px 35px;
-                                                  background-color:#0a4f66;
-                                                  border-radius:30px;
-                                                  margin:100px;
-                                                  left:-62px;
-                                                  top:-1400px;
-                                                  position:relative;
-                                                  overflow: hidden;
-                                                  text-align: center;
+                                                    background-color: #ffffff;
+                                                    margin: 15px;
+                                                    border: 1px solid #063D49;
+                                                    border-radius: 20px;
+                                                    overflow: hidden;
+                                                    transform: 0.5s;
+                                                    text-align: center;
+                                                    top: 10px;
                                                   }
-                      
-                                                  #dezessete{
-                                                    height: 400px;
-                                                  width: 335px;
-                                                  padding:20px 35px;
-                                                  background-color:#0a4f66;
-                                                  border-radius:30px;
-                                                  margin:100px;
-                                                  left: 335px;
-                                                  top:-1900px;
-                                                  position:relative;
-                                                  overflow: hidden;
-                                                  text-align: center;
+                                                  
+                                                  .container .card-TO .imagem-TO{
+                                                    transition: 0.5s;
+                                                    align-items: center;
+                                                  
                                                   }
-                      
-                      
-                                                  #dezoito{
-                                                    height: 400px;
-                                                  width: 335px;
-                                                  padding:20px 35px;
-                                                  background-color:#0a4f66;
-                                                  border-radius:30px;
-                                                  margin:100px;
-                                                  left: 730px;
-                                                  top:-2400px;
-                                                  position:relative;
-                                                  overflow: hidden;
-                                                  text-align: center;
+                                                  
+                                                  .container .card-TO .content{
+                                                    padding: 20px;
+                                                    text-align: center;
                                                   }
+                                                  
+                                                  .container .card-TO .content p{
+                                                    color: #000000;
+                                                    transition: 0.5s;
+                                                    font-size: large;
+                                                  }
+                                                  
+                                                  .container .card-TO:hover{
+                                                    background-color: #136475;
+                                                    color: #ffffff;
+                                                    margin-top: -30px;
+                                                    box-shadow: 2px 20px 25px #0d5260;
+                                                    border-color: #0d5260;
+                                                    transition: 0.3s;
+                                                  }
+                                                  
+                                                  .container .card-TO:hover .content p{
+                                                    color: #ffffff;
+                                                  }
+                                                
+                                                  
+                                                  .grade-TO{
+                                                    color: #ffffff;
+                                                  }
+
+                                                  .linha7{
+                                                    position: absolute;
+                                                    width: 435px;
+                                                    height: 20px;
+                                                    left:540px;
+                                                    top:7960px;
+                                                  background-color: #000000;
+                                                    border-radius: 8px;
+                                                    }
+                            
+                            
+                                                  #odontologia{
+                                                    position: absolute;
+                                                  width: 15px;
+                                                  height: 32px;
+                                                  left: 150px;
+                                                  top: 7895px;
+                                                  font-family: 'Hermeneus One';
+                                                  font-style: normal;
+                                                  font-weight: 400;
+                                                  font-size: 75px;
+                                                  line-height: 145px;
+                                                  color: #000000;
+                                                   }
+                            
+                                                   .linha8{
+                                                    position: absolute;
+                                                    width:135px;
+                                                    height: 20px;
+                                                    left:0px;
+                                                    top:7960px;
+                                                  background-color: #000000;
+                                                    border-radius: 8px;
+                                                    }
+                            
+                            
+                                                    #dez{
+                                                      height: 400px;
+                                                    width: 335px;
+                                                    padding:20px 35px;
+                                                    background-color:#0a4f66;
+                                                    border-radius:30px;
+                                                    margin:100px;
+                                                    left:-62px;
+                                                    top:2100px;
+                                                    position:relative;
+                                                    overflow: hidden;
+                                                    text-align: center;
+                                                    }
+                            
+                                                    #onze{
+                                                      height: 400px;
+                                                    width: 335px;
+                                                    padding:20px 35px;
+                                                    background-color:#0a4f66;
+                                                    border-radius:30px;
+                                                    margin:80px;
+                                                    left:-23px;
+                                                    top:2100px;
+                                                    position:relative;
+                                                    overflow: hidden;
+                                                    text-align: center;
+                                                    }
+                            
+                                                    #doze{
+                                                      height: 400px;
+                                                    width: 335px;
+                                                    padding:20px 35px;
+                                                    background-color:#0a4f66;
+                                                    border-radius:30px;
+                                                    margin:100px;
+                                                    left: 88px;
+                                                    top:2100px;
+                                                    position:relative;
+                                                    overflow: hidden;
+                                                    text-align: center;
+                                                    }
+                            
+
+                                                    .titulo-faculdade-Odonto {
+                                                      position: relative;
+                                                      top: 32px;
+                                                      
+                                                    }
+                                                    
+                                                      .section8{
+                                                        background-color: #257f93;
+                                                        height: auto;
+                                                        top:2055px;
+                                                        left: 0;
+                                                        margin-top: 35px;
+                                                        position: relative;
+                                                      
+                                                      }
+                                                    
+                                                      .faculdade-Odonto {
+                                                        color: #ffffff;
+                                                        font-size: 60px;
+                                                        text-align: center;
+                                                        margin-top: -30px;
+                                                        font-weight: 400;
+                                                        letter-spacing: 3px;
+                                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                        padding-top: 16px;
+                                                      
+                                                      }
+                                                    
+                                                      .botao-Odonto{
+                                                        background-color: #136475;
+                                                        border-radius: 15px;
+                                                        width: 150px;
+                                                        border-color: #ffffff;
+                                                        margin-left: 10px;
+                                                      }
+                                                    
+                                                      .container{
+                                                        width: 1150px;
+                                                        padding: 55px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        flex-wrap: wrap;
+                                                        cursor: pointer;
+                                                      }
+                                                      
+                                                      .container .card-Odonto{
+                                                        position: relative;
+                                                        padding: 10px;
+                                                        width: 290px;
+                                                        height: 400px;
+                                                        background-color: #ffffff;
+                                                        margin: 15px;
+                                                        border: 1px solid #063D49;
+                                                        border-radius: 20px;
+                                                        overflow: hidden;
+                                                        transform: 0.5s;
+                                                        text-align: center;
+                                                        top: 10px;
+                                                      }
+                                                      
+                                                      .container .card-Odonto .imagem-Odonto{
+                                                        transition: 0.5s;
+                                                        align-items: center;
+                                                      
+                                                      }
+                                                      
+                                                      .container .card-Odonto .content{
+                                                        padding: 20px;
+                                                        text-align: center;
+                                                      }
+                                                      
+                                                      .container .card-Odonto .content p{
+                                                        color: #000000;
+                                                        transition: 0.5s;
+                                                        font-size: large;
+                                                      }
+                                                      
+                                                      .container .card-Odonto:hover{
+                                                        background-color: #063D49;
+                                                        color: #ffffff;
+                                                        margin-top: -30px;
+                                                        box-shadow: 2px 20px 25px #063D49;
+                                                        border-color: #063D49;
+                                                        transition: 0.3s;
+                                                      
+                                                      }
+                                                      
+                                                      .container .card-Odonto:hover .content p{
+                                                        color: #ffffff;
+                                                      }
+                                                    
+                                                      
+                                                      .grade-Odonto{
+                                                        color: #ffffff;
+                                                      }
+
+                                                      .linha9{
+                                                        position: absolute;
+                                                        width: 190px;
+                                                        height: 20px;
+                                                        left:810px;
+                                                        top:9710px;
+                                                      background-color: #000000;
+                                                        border-radius: 8px;
+                                                        }
+                              
+                              
+                                                      #estetica{
+                                                        position: absolute;
+                                                      width: 15px;
+                                                      height: 32px;
+                                                      left: 150px;
+                                                      top: 9640px;
+                                                      font-family: 'Hermeneus One';
+                                                      font-style: normal;
+                                                      font-weight: 400;
+                                                      font-size: 75px;
+                                                      line-height: 145px;
+                                                      color: #000000;
+                                                       }
+                              
+                                                       #e{
+                                                        position: absolute;
+                                                      width: 15px;
+                                                      height: 32px;
+                                                      left: 420px;
+                                                      top: 9640px;
+                                                      font-family: 'Hermeneus One';
+                                                      font-style: normal;
+                                                      font-weight: 400;
+                                                      font-size: 75px;
+                                                      line-height: 145px;
+                                                      color: #000000;
+                                                       }
+                              
+                              
+                                                       #cosmetica{
+                                                        position: absolute;
+                                                      width: 15px;
+                                                      height: 32px;
+                                                      left: 490px;
+                                                      top: 9640px;
+                                                      font-family: 'Hermeneus One';
+                                                      font-style: normal;
+                                                      font-weight: 400;
+                                                      font-size: 75px;
+                                                      line-height: 145px;
+                                                      color: #000000;
+                                                       }
+                              
+                                                       .linha10{
+                                                        position: absolute;
+                                                        width:135px;
+                                                        height: 20px;
+                                                        left:0px;
+                                                        top:9710px;
+                                                      background-color: #000000;
+                                                        border-radius: 8px;
+                                                        }
+                              
+                              
+                                                        #treze{
+                                                          height: 400px;
+                                                        width: 335px;
+                                                        padding:20px 35px;
+                                                        background-color:#0a4f66;
+                                                        border-radius:30px;
+                                                        margin:100px;
+                                                        left:-62px;
+                                                        top:2100px;
+                                                        position:relative;
+                                                        overflow: hidden;
+                                                        text-align: center;
+                                                        }
+                              
+                              
+                                                        #quatorze{
+                                                          height: 400px;
+                                                        width: 335px;
+                                                        padding:20px 35px;
+                                                        background-color:#0a4f66;
+                                                        border-radius:30px;
+                                                        margin:100px;
+                                                        left: 15px;
+                                                        top:2100px;
+                                                        position:relative;
+                                                        overflow: hidden;
+                                                        text-align: center;
+                                                        }
+                              
+                              
+                              
+                                                        #quinze{
+                                                          height: 400px;
+                                                        width: 335px;
+                                                        padding:20px 35px;
+                                                        background-color:#0a4f66;
+                                                        border-radius:30px;
+                                                        margin:100px;
+                                                        left: 30px;
+                                                        top:2100px;
+                                                        position:relative;
+                                                        overflow: hidden;
+                                                        text-align: center;
+                                                        }
+
+                                                        .titulo-faculdade-estetica {
+                                                          position: relative;
+                                                          top: 32px;
+                                                          
+                                                        }
+                                                        
+                                                          .section9{
+                                                            background-color: #063D49;
+                                                            height: auto;
+                                                            top:2055px;
+                                                            left: 0;
+                                                            margin-top: 35px;
+                                                            position: relative;
+                                                        
+                                                          
+                                                          }
+                                                        
+                                                          .faculdade-estetica {
+                                                            color: #ffffff;
+                                                            font-size: 60px;
+                                                            text-align: center;
+                                                            margin-top: -30px;
+                                                            font-weight: 400;
+                                                            letter-spacing: 3px;
+                                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                            padding-top: 16px;
+                                                        
+                                                          
+                                                          }
+                                                        
+                                                          .botao-estetica{
+                                                            background-color: #063D49;
+                                                            border-radius: 15px;
+                                                            width: 150px;
+                                                            border-color: #ffffff;
+                                                            margin-left: 10px;
+                                                        
+                                                          }
+                                                        
+                                                          .container{
+                                                            width: 1150px;
+                                                            padding: 55px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            flex-wrap: wrap;
+                                                            cursor: pointer;
+                                                          }
+                                                          
+                                                          .container .card-estetica{
+                                                            position: relative;
+                                                            padding: 10px;
+                                                            width: 290px;
+                                                            height: 400px;
+                                                            background-color: #ffffff;
+                                                            margin: 15px;
+                                                            border: 1px solid #063D49;
+                                                            border-radius: 20px;
+                                                            overflow: hidden;
+                                                            transform: 0.5s;
+                                                            text-align: center;
+                                                            top: 10px;
+                                                        
+                                                          }
+                                                          
+                                                          .container .card-estetica .imagem-estetica{
+                                                            transition: 0.5s;
+                                                            align-items: center;
+                                                          
+                                                          }
+                                                          
+                                                          .container .card-estetica .content{
+                                                            padding: 20px;
+                                                            text-align: center;
+                                                          }
+                                                          
+                                                          .container .card-estetica .content p{
+                                                            color: #000000;
+                                                            transition: 0.5s;
+                                                            font-size: large;
+                                                          }
+                                                          
+                                                          .container .card-estetica:hover{
+                                                            background-color: #136475;
+                                                            color: #ffffff;
+                                                            margin-top: -30px;
+                                                            box-shadow: 2px 20px 25px #0d5260;
+                                                            border-color: #0f5361;
+                                                            transition: 0.3s;
+                                                        
+                                                          }
+                                                          
+                                                          .container .card-estetica:hover .content p{
+                                                            color: #ffffff;
+                                                          }
+                                                        
+                                                          
+                                                          .grade-estetica{
+                                                            color: #ffffff;
+                                                          }
+
+                                                          .linha11{
+                                                            position: absolute;
+                                                            width: 400px;
+                                                            height: 20px;
+                                                            left:550px;
+                                                            top:11520px;
+                                                          background-color: #000000;
+                                                            border-radius: 8px;
+                                                            }
+                                
+                                
+                                                          #enfermagem{
+                                                            position: absolute;
+                                                          width: 15px;
+                                                          height: 32px;
+                                                          left: 150px;
+                                                          top: 11448px;
+                                                          font-family: 'Hermeneus One';
+                                                          font-style: normal;
+                                                          font-weight: 400;
+                                                          font-size: 75px;
+                                                          line-height: 145px;
+                                                          color: #000000;
+                                                           }
+                                
+                                
+                                                           .linha12{
+                                                            position: absolute;
+                                                            width:135px;
+                                                            height: 20px;
+                                                            left:0px;
+                                                            top:11520px;
+                                                          background-color: #000000;
+                                                            border-radius: 8px;
+                                                            }
+                                
+                                
+                                                            #dezesseis{
+                                                              height: 400px;
+                                                            width: 335px;
+                                                            padding:20px 35px;
+                                                            background-color:#0a4f66;
+                                                            border-radius:30px;
+                                                            margin:100px;
+                                                            left:-62px;
+                                                            top:2150px;
+                                                            position:relative;
+                                                            overflow: hidden;
+                                                            text-align: center;
+                                                            }
+                                
+                                                            #dezessete{
+                                                              height: 400px;
+                                                            width: 335px;
+                                                            padding:20px 35px;
+                                                            background-color:#0a4f66;
+                                                            border-radius:30px;
+                                                            margin:100px;
+                                                            left: -35px;
+                                                            top:2150px;
+                                                            position:relative;
+                                                            overflow: hidden;
+                                                            text-align: center;
+                                                            }
+                                
+                                
+                                                            #dezoito{
+                                                              height: 400px;
+                                                            width: 335px;
+                                                            padding:20px 35px;
+                                                            background-color:#0a4f66;
+                                                            border-radius:30px;
+                                                            margin:100px;
+                                                            left: -50px;
+                                                            top:2150px;
+                                                            position:relative;
+                                                            overflow: hidden;
+                                                            text-align: center;
+                                                            }
+
+                                                            .titulo-faculdade-enfermagem {
+                                                              position: relative;
+                                                              top: 32px;
+                                                              
+                                                            }
+                                                            
+                                                              .section10{
+                                                                background-color: #257f93;
+                                                                height: auto;
+                                                                top:2055px;
+                                                                left: 0;
+                                                                margin-top: 35px;
+                                                                position: relative;
+                                                              }
+                                                            
+                                                              .faculdade-enfermagem {
+                                                                color: #ffffff;
+                                                                font-size: 60px;
+                                                                text-align: center;
+                                                                margin-top: -30px;
+                                                                font-weight: 400;
+                                                                letter-spacing: 3px;
+                                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                                padding-top: 16px;
+                                                            
+                                                              
+                                                              }
+                                                            
+                                                              .botao-enfermagem{
+                                                                background-color: #257f93;
+                                                                border-radius: 15px;
+                                                                width: 150px;
+                                                                border-color: #ffffff;
+                                                                margin-left: 10px;
+                                                            
+                                                            
+                                                              }
+                                                            
+                                                              .container{
+                                                                width: 1150px;
+                                                                padding: 55px;
+                                                                display: flex;
+                                                                align-items: center;
+                                                                justify-content: center;
+                                                                flex-wrap: wrap;
+                                                                cursor: pointer;
+                                                              }
+                                                              
+                                                              .container .card-enfermagem{
+                                                                position: relative;
+                                                                padding: 10px;
+                                                                width: 290px;
+                                                                height: 400px;
+                                                                background-color: #ffffff;
+                                                                margin: 15px;
+                                                                border: 1px solid #063D49;
+                                                                border-radius: 20px;
+                                                                overflow: hidden;
+                                                                transform: 0.5s;
+                                                                text-align: center;
+                                                                top: 10px;
+                                                            
+                                                              }
+                                                              
+                                                              .container .card-enfermagem .imagem-enfermagem{
+                                                                transition: 0.5s;
+                                                                align-items: center;
+                                                              
+                                                              }
+                                                              
+                                                              .container .card-enfermagem .content{
+                                                                padding: 20px;
+                                                                text-align: center;
+                                                              }
+                                                              
+                                                              .container .card-enfermagem .content p{
+                                                                color: #000000;
+                                                                transition: 0.5s;
+                                                                font-size: large;
+                                                              }
+                                                              
+                                                              .container .card-enfermagem:hover{
+                                                                background-color: #136475;
+                                                                color: #ffffff;
+                                                                margin-top: -30px;
+                                                                box-shadow: 2px 20px 25px #0d5260;
+                                                                border-color: #0d5260;
+                                                                transition: 0.3s;
+                                                            
+                                                            
+                                                              }
+                                                              
+                                                              .container .card-enfermagem:hover .content p{
+                                                                color: #ffffff;
+                                                              }
+                                                            
+                                                              
+                                                              .grade-enfermagem{
+                                                                color: #ffffff;
+                                                              }
+          
+
+                                                              @media (max-width: 480px) {
+
+                                                                .content-table thead {
+                                                                  display: none;
+                                                                }.content-table tr {
+                                                                  border-bottom: 1px solid #dddddd;
+                                                                }
+                                                                .content-table td {
+                                                                  border: 0;
+                                                                }.content-table td:not(:first-child) {
+                                                                  display: block;
+                                                                }}
+
+                                                                #colaps1{
+                                                                  position: absolute;
+                                                                  top: 13400px;
+                                                                  left: 30px;
+                                                                  height: 50px;
+                                                                
+                                                                }
+
+                                                                #colaps2{
+                                                                  position: absolute;
+                                                                  top: 13400px;
+                                                                  left: 400px;
+                                                                  height: 50px;
+                                                                
+                                                                }
+
+                                                                #colaps3{
+                                                                  position: absolute;
+                                                                  top: 13400px;
+                                                                  left: 800px;
+                                                                  height: 50px;
+                                                                
+                                                                }

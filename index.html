@@ -17,32 +17,69 @@
 </head>
 <body>
 <div class="wrapper">
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark " style="background-color:#023768 ;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="imgs/logo.png" id="tema" width="50" height="30"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Ciências da Saúde</a>
-        
-        <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#medicina">Medicina</a></li>
-        <li><a class="dropdown-item" href="#">Psicologia</a></li>
-        <li><a class="dropdown-item" href="#">Terapia Ocupacional</a></li>
-        <li><a class="dropdown-item" href="#">Estética</a></li>
-        <li><a class="dropdown-item" href="#">Nutrição</a></li>
-        <li><a class="dropdown-item" href="#">Enfermagem</a></li>
-        <li><a class="dropdown-item" href="#">Odontologia</a></li>
-        </ul>
-        </li>
-        
-        </div>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3 fixed-top navShadow ps-5 pe-5">
+            <div class="container-fluid">
+                <img src="imgs/logo.png" class="navbar-brand" alt="logo navbar" width="80">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto listNavbar">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#ciencias">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page"
+                                href="#dois">Explicação</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" data-bs-auto-close="outside" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pós-Graduação
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropstart">
+                                    <a class="dropdown-item dropdown-toggle text-black"
+                                        data-bs-toggle="dropdown" href="#">Lato-Sensu</a>
+                                    <ul class="dropdown-menu listNavbar">
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab1-tab"
+                                                onclick="changeTab(event)">Especialização</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropstart">
+                                    <a class="dropdown-item dropdown-toggle text-black"
+                                        data-bs-toggle="dropdown" href="#">Stricto-Sensu</a>
+                                    <ul class="dropdown-menu listNavbar">
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab2-tab"
+                                                onclick="changeTab(event)">Mestrado</a>
+                                        </li>
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab3-tab"
+                                                onclick="changeTab(event)">Doutorado</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    
+    </div>
     <div class="container-fluid" id="topo">
         <p id="titulo1"> Ciências <br> 
         </p>
@@ -73,7 +110,7 @@
               <div class="o-que-e"> 
                  <h2 style="font-size:5vw;">Cursos</h2> 
                    <div class="container"> 
-                     <div class="card-5"> 
+                     <div class="card-5" id="cursos"> 
                        <div class="imagem-cursos"> 
                           <img src="imgs/medicina.jpg">
                        </div> 
@@ -190,9 +227,66 @@
                    
                    </section>
 
+                   <section class="section5">
+                    <div class="container4">
+                        <div class="titulo-faculdade">
+                            <h2 class="faculdade-medicina">Principais Faculdades de Medicina</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="img/UFPR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> do <br> Paraná(UFPR)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="http://www.saude.ufpr.br/portal/medicina/grade-horaria/#">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="img/USP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade <br> de <br> São Paulo(USP)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=17&codcur=17051&codhab=0&tipo=N">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="img/UFV.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal <br> de <br> Viçosa(UFV)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="http://www.catalogo.ufv.br/matriz.php?campus=vicosa&complemento=*&curso=MED&ano=2018#:~:text=O%20Projeto%20Pedag%C3%B3gico%20do%20Curso%20de%20Medicina%20da,e%20respeito%20por%20todas%20as%20formas%20de%20exist%C3%AAncia.">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
                    <div class="linha3"></div>
                    <div class="linha4"></div>
-                   <p id="Psicologia"> Psicologia </p>
+                   <p id="psicologia"> Psicologia </p>
 
                </div>
 
@@ -242,7 +336,64 @@
                    </section>
 
 
-                   <div class="linha5"></div>
+                   <section class="section6">
+                    <div class="container4">
+                        <div class="titulo-faculdade-psi">
+                            <h2 class="faculdade-psicologia">Principais Faculdades de Psicologia</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="img/UFMG.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> de <br> Minas Gerais(UFMG)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://ufmg.br/cursos/graduacao/2354/91198">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="img/USP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade <br> de <br> São Paulo(USP)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://uspdigital.usp.br/jupiterweb/jupDisciplinaLista?codcg=47&tipo=T">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="img/UNICAMP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Estadual <br> de <br> Campinas(UNICAMP)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://querobolsa.com.br/unicamp-universidade-estadual-de-campinas">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
+                <div class="linha5"></div>
                    <div class="linha6"></div>
                    <p id="terapia"> Terapia </p>
 
@@ -296,7 +447,64 @@
                    </section>
 
 
-                   <div class="linha7"></div>
+                   <section class="section7">
+                    <div class="container4">
+                        <div class="titulo-faculdade-TO">
+                            <h2 class="faculdade-TO">Principais Faculdades de Terapia Ocupacional</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="img/UFSCAR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> de <br> São Carlos(UFSCAR)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="https://www.prograd.ufscar.br/cursos/cursos-oferecidos-1/terapia-ocupacional">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="img/UFPR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade Federal <br> do <br> Paraná(UFPR)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="http://www.saude.ufpr.br/portal/terapiaocupacional/wp-content/uploads/sites/5/2022/05/Matriz-curricular-TO_2022-1.pdf#:~:text=Obs%3A%20Tabela%20elaborada%20com%20base%20na%20Resolu%C3%A7%C3%A3o%20no,no%20188%2FPROGRAD%2FCOPAC%2C%20de%2025%20de%20janeiro%20de%202022.">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="img/UEPA.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Estadual <br> do <br> Pará(UEPA)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="https://paginas.uepa.br/ccbs/terapiaocupacional/images/stories/docs/Estrutura_curricular.pdf#:~:text=MATRIZ%20CURRICULAR%20DO%20CURSO%20DE%20TERAPIA%20OCUPACIONAL%201a,IV%20INSTRUMENTALIZA%C3%87%C3%83O%20PARA%20O%20DESENVOLVIMENTO%20DA%20ATIVIDADE%20HUMANA">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
+                <div class="linha7"></div>
                    <div class="linha8"></div>
                    <p id="odontologia"> Odontologia </p>
 
@@ -340,9 +548,64 @@
                        </div>
                        
                        </section>
-   
+                       <section class="section8">
+                        <div class="container4">
+                            <div class="titulo-faculdade-Odonto">
+                                <h2 class="faculdade-Odonto">Principais Faculdades de Odontologia</h2>
+                            </div>
+                        <div class="container">
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="img/USP.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade<br> de <br> São Paulo(UPS)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www5.usp.br/ensino/graduacao/cursos-oferecidos/odontologia/">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="img/UNICAMP.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                       Universidade Estadual <br> de <br> Campinas(UNICAMP)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www.prg.unicamp.br/odontologia/#:~:text=As%20disciplinas%20est%C3%A3o%20agrupadas%20em%20quatro%20grandes%20%C3%A1reas%3A,aspectos%20administrativos%2C%20human%C3%ADsticos%2C%20%C3%A9ticos%20e%20legais%20da%20atividade.">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="img/UFRJ.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade Federal <br> do <br> Rio de Janeiro(UFRJ)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www.ufjf.br/gradodonto/files/2008/07/Grade-do-curso.pdf#:~:text=O%20Curso%20de%20Odontologia%20tem%20a%20seguinte%20dura%C3%A7%C3%A3o%3A,Est%C3%A1gio%20de%20Urg%C3%AAncia%20Odontol%C3%B3gica............................................................................%20120%20h%2Fa%20Est%C3%A1gio%20Hospitalar..................................................................................................">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                        </div>
+                     </div>
+                    </section>
 
-                       <div class="linha9"></div>
+                    <div class="linha9"></div>
                    <div class="linha10"></div>
                    <p id="estetica"> Estética  </p>
 
@@ -392,7 +655,64 @@
                        </section>
 
 
-                       <div class="linha11"></div>
+                       <section class="section9">
+                        <div class="container4">
+                            <div class="titulo-faculdade-estetica">
+                                <h2 class="faculdade-estetica">Principais Faculdades de Estética e Cosmética</h2>
+                            </div>
+                        <div class="container">
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="img/UVV.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade<br> de <br> Vila Velha(UVV)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://uvv.br/ensino-presencial/graduacao/estetica-e-cosmetica/">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="img/UNIGRAN.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Centro Universitário da <br>Grande Dourados(UNIGRAN)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://portal.unigranrio.edu.br/tecnologia-em-estetica-e-cosmetica#:~:text=Dessa%20forma%2C%20o%20aluno%20se%20torna%20apto%20a,Tratamentos%20Dermatol%C3%B3gicos%2C%20Terapia%20Capilar%2C%20Maquiagem%2C%20Massagem%2C%20entre%20outras.">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="img/UNIVAG.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Centro Universitário<br> de <br>Várzea Grande(UNIVAG)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://www.univag.com.br/curso/29/estetica-e-cosmetica/">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                        </div>
+                     </div>
+                    </section>
+
+                    <div class="linha11"></div>
                        <div class="linha12"></div>
                        <p id="enfermagem"> Enfermagem</p>
 
@@ -445,63 +765,67 @@
                            </div>
                            
                            </section>
-     <section class="section5">
-        <div class="container4">
-            <div class="titulo-faculdade">
-                <h2 class="faculdade-medicina">Principais Faculdades de Medicina</h2>
-            </div>
-        <div class="container">
-            <div class="card">
-                <div class="imagem">
-                    <img src="img/UFPR.png">
-                </div>
-                <div class="content">
-                    <p>
-                        Universidade Federal<br> do <br> Paraná(UFPR)
-                    </p>
-                </div>
-                <button class="botao">
-                    <a href="http://www.saude.ufpr.br/portal/medicina/grade-horaria/#">
-                   <p class="grade"> Grade Curricular</p>
-                   </a>
-                </button>
-            </div>
 
-            <div class="card">
-                <div class="imagem">
-                    <img src="img/USP.png">
-                </div>
-                <div class="content">
-                    <p>
-                       Universidade <br> de <br> São Paulo(USP)
-                    </p>
-                </div>
-                <button class="botao">
-                    <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=17&codcur=17051&codhab=0&tipo=N">
-                   <p class="grade"> Grade Curricular</p>
-                   </a>
-                </button>
-            </div>
+                           <section class="section10">
+                            <div class="container4">
+                                <div class="titulo-faculdade-enfermagem">
+                                    <h2 class="faculdade-enfermagem">Principais Faculdades de Enfermagem</h2>
+                                </div>
+                            <div class="container">
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="img/UFRGS.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade Federal <br> do <br> Rio Grande do Sul(UFRGS)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=315">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                    
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="img/UFMG.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade Federal <br> de <br> Minas Gerais(UFMG)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="https://ufmg.br/cursos/graduacao/2397/91212">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                    
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="img/USP.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade<br> de <br> São Paulo(USP)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=22&codcur=22012&codhab=0&tipo=V#:~:text=Grade%20Curricular%20Legenda%3A%20CH%3DCarga%20hor%C3%A1ria%20Total%3B%20CE%3DCarga%20hor%C3%A1ria,Curriculares%3B%20ATPA%3DCarga%20hor%C3%A1ria%20em%20Atividades%20Te%C3%B3rico-Pr%C3%A1ticas%20de%20Aprofundamento">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                            </div>
+                         </div>
+                        </section>
 
-            <div class="card">
-                <div class="imagem">
-                    <img src="img/UFV.png">
-                </div>
-                <div class="content">
-                    <p>
-                        Universidade Federal <br> de <br> Viçosa(UFV)
-                    </p>
-                </div>
-                <button class="botao">
-                    <a href="http://www.catalogo.ufv.br/matriz.php?campus=vicosa&complemento=*&curso=MED&ano=2018#:~:text=O%20Projeto%20Pedag%C3%B3gico%20do%20Curso%20de%20Medicina%20da,e%20respeito%20por%20todas%20as%20formas%20de%20exist%C3%AAncia.">
-                   <p class="grade"> Grade Curricular</p>
-                   </a>
-                </button>
-            </div>
-        </div>
-     </div>
-    </section>
 
+                   
+    
      <!--Como são as faculdades-->
      <center>
       <section id="como-e"> 
@@ -577,6 +901,8 @@
                          </div> 
                      </div> 
                  </section>
+
+                
 
                  <section class="section1">
                   <div class="section1-conteudo">
